@@ -5,7 +5,7 @@ pagination_next: null
 pagination_prev: intro
 ---
 
-Cette page vous dire si vous devez déverrouiller votre calculatrice et comment.
+Cette page va vous dire si vous devez déverrouiller votre calculatrice et comment.
 
 #### Section I - Vérification de la version Epsilon
 

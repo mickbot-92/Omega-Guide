@@ -8,13 +8,13 @@ sidebar_position: 2
 Nous allons maintenant installer Epsilon 18.2.0
 
 :::info
-Si vous n'êtes pas sur que vous puissiez installer Epsilon 18.2.0, allez voir [cette page](./check-version-change-eligibility)
+Si vous n'êtes pas sûr(e) que vous puissiez installer Epsilon 18.2.0, allez voir [cette page](./check-version-change-eligibility)
 :::
 
 ### Ce dont vous avez besoin
 
-- Un navigateur à base chromium (nous vous recommandons d'utiliser [chromium](https://www.chromium.org/chromium-projects/) directement)
-- Epsilon 18.2.0 `18-2-0.dfu` (Etant donné que Numworks a supprimé ce fichier de leur site web à cause de Phi, nous ne pouvons pas vous donner de lien ici)
+- Un navigateur à base Chromium (nous vous recommandons d'utiliser [Chromium](https://www.chromium.org/chromium-projects/) directement)
+- Epsilon 18.2.0 `18-2-0.dfu` (étant donné que Numworks a supprimé ce fichier de leur site web à cause de Phi, nous ne pouvons pas vous donner de lien ici)
 - Ce script Python: [version Linux et macOS](/resources/unpack.py), [version Windows](/resources/unpack-win.py)
 
 ### Section I - Extraction du binaire externe
@@ -33,7 +33,7 @@ Vous devriez maintenant avoir un fichier internal.bin et un fichier external.bin
 
 ### Section II - Installation
 
-1. Ouvrez le [WebDFU](https://ti-planet.github.io/webdfu_numworks/n0110/) dans un navigateur web basé sur chromium
+1. Ouvrez le [WebDFU](https://ti-planet.github.io/webdfu_numworks/n0110/) dans un navigateur web basé sur Chromium
 2. Maintenez la touche 6 sur votre Numworks et pressez le bouton reset
 3. Vous devriez maintenant voir l'interface du bootloader Epsilon
 4. Sélectionnez `external.bin` dans WebDFU

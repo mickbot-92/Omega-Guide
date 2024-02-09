@@ -6,7 +6,7 @@ pagination_prev: cfw/choose-a-cfw
 ---
 
 :::danger
-Suivre ce guide peut mettre en danger votre calculatrice. Installer Epsilon de la mauvaise manière sur votre calculatrice pourrait la bloquer.. Suivez **STRICTEMENT** ce qui est dit sur cette page pour être sur que votre calculatrice n'est pas en danger
+Suivre ce guide peut mettre en danger votre calculatrice. Installer Epsilon de la mauvaise manière sur votre calculatrice pourrait la bloquer. Suivez **STRICTEMENT** ce qui est dit sur cette page pour être sûr(e) que votre calculatrice n'est pas en danger.
 :::
 
 :::caution
@@ -23,23 +23,23 @@ Nous allons maintenant installer Epsilon sur un slot de la calculatrice, en cons
 
 ### Ce dont vous avez besoin
 
-- Un PC avec un navigateur basé Chromium (on recommande d'utiliser directement [chromium](https://www.chromium.org/chromium-projects/))
+- Un PC avec un navigateur basé Chromium (on recommande d'utiliser directement [Chromium](https://www.chromium.org/chromium-projects/))
 - Un bootloader custom compatible installé (si vous ne savez pas, regardez [cette page](/docs/cfw/choose-a-cfw))
 
 ### Section I - Ouvrir le bootloader
 
-Si votre CFW inclut un bootloader qui permet d'installer un firmware depuis celui-ci, vous devriez donc ouvrir le bootloader et le rendre prêt à installer quoi que ce soit. De l'aide eut être trouvée sur [cette page](/docs/cfw/choose-a-cfw)
+Si votre CFW inclut un bootloader qui permet d'installer un firmware depuis celui-ci, vous devriez donc ouvrir le bootloader et le rendre prêt à installer quoi que ce soit. De l'aide peut être trouvée sur [cette page](/docs/cfw/choose-a-cfw)
 
 ### Section II - Installation
 
 1. Vérifiez que votre calculatrice est dans le bootloader, prête à installer quoi que ce soit. Elle **NE DOIT PAS** être en mode Recovery (écran noir + LED rouge) étant donné que ça permettrait à Numworks de bloquer votre calculatrice
 2. Ouvrez la [page de mise à jour Numworks](https://numworks.com/update)
-3. Suivez les instructions mais si il vous demande de faire quoi que ce soit sur votre calculatrice, ne le faites pas à moins que ce soit la connecter à votre PC. Le site devrait voir la version 0.0.0
-4. À la fin l'installer sera bloqué et pourrait donner une erreur, c'est car il ne peut pas redémarrer la calculatrice. Ne vous inquiétez pas Epsilon est installé, appuyez juste sur reset et tout est bon
+3. Suivez les instructions mais s'il vous demande de faire quoi que ce soit sur votre calculatrice, ne le faites pas à moins que ce soit la connecter à votre PC. Le site devrait voir la version 0.0.0
+4. À la fin l'installateur sera bloqué et pourrait donner une erreur, c'est parce qu'il ne peut pas redémarrer la calculatrice. Ne vous inquiétez pas, Epsilon est installé, appuyez juste sur reset et tout est bon.
 
-Maintenant vous avez Epsilon avec un bootloader custom donc votre calculatrice n'est pas bloquée
+Maintenant vous avez Epsilon avec un bootloader custom donc votre calculatrice n'est pas bloquée.
 
-Epsilon a normalement été installé sur les deux slots. Donc si vous aviez un CFW, il a été effacé, seul le bootloader reste. Pour le réinstaller vous pouvez le faire normalement depuis le bootloader ou en mode Recovery, faites juste attention de ne pas installer Epsilon à la place.
+Epsilon a normalement été installé sur les deux slots. Donc si vous aviez un CFW, il a été effacé, seul le bootloader reste. Pour le réinstaller vous pouvez le faire normalement depuis le bootloader ou en mode Recovery, faites juste attention à ne pas installer Epsilon à la place.
 
 Il est recommandé de garder votre CFW en Slot A.
 

@@ -5,12 +5,12 @@ pagination_next: null
 pagination_prev: null
 ---
 
-Cette page est faite pour expliquer comment fonctionne la calculatrice et ce qu'il se passe quand on la débloque
-Vous allez également en apprendre un peu sur l'histoire de la calculatrice
+Cette page est faite pour expliquer comment fonctionne la calculatrice et ce qu'il se passe quand on la débloque.
+Vous allez également en apprendre un peu plus sur l'histoire de la calculatrice.
 
 ### 1 - Comment la calculatrice est-elle conçue ?
 
-D'abord, sachez que le bouton Power de la calculatrice ne la met qu'en mode veille, au lieu de l'éteindre complètement. La calculatrice s'allume automatiquement quand la batterie est connectée. Le bouton reset au dos coupe simplement l'alimentation tant qu'il est maintenu. Quand vous le relachez, la calculatrice s'allume.
+D'abord, sachez que le bouton Power de la calculatrice ne la met qu'en mode veille, au lieu de l'éteindre complètement. La calculatrice s'allume automatiquement quand la batterie est connectée. Le bouton reset au dos coupe simplement l'alimentation tant qu'il est maintenu. Quand vous le relâchez, la calculatrice s'allume.
 
 Il y a actuellement 4 modèles de calculatrice Numworks: N0100, N0110, N0115, N0120.
 
@@ -24,16 +24,16 @@ On peut donc faire 2 catégories:
 - N0110, N0115 et N0120: Avec flash interne et externe
 
 :::info
-Toutes les calculatrices, grâce au MCU, ont un mode Recovery. il est habituellement accédé en maintenant 6 pendant que la calculatrice démarre (sur la N0100 il doit être branché à un PC quand il démarre, vous n'avez pas besoin de maintenir 6). il est représenté par un écran noir avec la LED allumée en rouge. Mais si vous essayez, il se peut que cela ne fasse pas ça, nous comprendrons pourquoi après.
+Toutes les calculatrices, grâce au MCU, ont un mode Recovery. Il est habituellement accédé en maintenant 6 pendant que la calculatrice démarre (sur la N0100 il doit être branché à un PC quand il démarre, vous n'avez pas besoin de maintenir 6). Il est représenté par un écran noir avec la LED allumée en rouge. Mais si vous essayez, il se peut que cela ne fasse pas ça, nous comprendrons pourquoi après.
 Sur N0115, le mode Recovery n'est pas accessible comme ça.
 :::
 
 ### 2 - Comment le matériel est-il utilisé ?
 
-Avec 1 flash, c'est facile de comprendre, tout est dans la flash, c'est le cas sur N0100. Mais avec 2 flashs, c'est plus compliqué:
+Avec 1 flash, c'est facile de comprendre, tout est dans la flash, comme c'est le cas sur N0100. Mais avec 2 flashs, c'est plus compliqué:
 
-- La flash externe: Elle contient le firmware, ce que vous connaissez, l'interface, le programme de calcul, et tout ce que vous utilisez sur cette calculatrice.
-- La flash interne: Elle contient un petit programme fait pour démarrer ce qui est installé sur la flash externe. C'est la première chose exécutée par la calculatrice, si la flash interne est vide, la calculatrice ne peut pas démarrer, et la LED devient rouge.
+- La flash externe : Elle contient le firmware, ce que vous connaissez, l'interface, le programme de calcul, et tout ce que vous utilisez sur cette calculatrice.
+- La flash interne : Elle contient un petit programme fait pour démarrer ce qui est installé sur la flash externe. C'est la première chose exécutée par la calculatrice. Si la flash interne est vide, la calculatrice ne peut pas démarrer, et la LED devient rouge.
 
 ### 3 - Qu'est-ce qui est installé sur les flashs ?
 
@@ -56,7 +56,7 @@ Delta a introduit les applis externes, qui ont été réutilisées dans Omega. E
 
 Mais tout a changé quand les bootloaders custom ont été publiés en même temps que Phi.
 
-Beaucoup de bootloaders custom contiennent plus de fonctions comment permettre d'avoir 2 firmwares stockés sur la flash externe et démarrer l'un ou l'autre. Ainsi qu'empêcher d'écrire sur la flash interne depuis le firmware
+Beaucoup de bootloaders custom contiennent plus de fonctions comme la possibilité d'avoir 2 firmwares stockés sur la flash externe et de démarrer l'un ou l'autre. Ainsi qu'empêcher d'écrire sur la flash interne depuis le firmware.
 
 :::info
 Maintenant que vous comprenez comment fonctionne la flash interne, voyons comment Phi fonctionne
@@ -78,17 +78,17 @@ Numworks a réglé ce bug en publiant Epsilon 18.2.3.
 
 ### 6 - Donc, que se passe-t-il quand vous suivez le guide ?
 
-Le processus dans le guide est maintenant facile à comprendre:
+Le processus dans le guide est maintenant facile à comprendre :
 - sur N0100, on lance simplement le mode Recovery et on écrase la flash interne
 - sur N0110, on écrase la flash interne, débloque et réactive le mode Recovery pour installer ce que l'on veut sur les 2 flashs
 
-### 7 - Pourquoi la N0120 ne peut pas être débloquée ?
+### 7 - Pourquoi la N0120 ne peut-elle pas être débloquée ?
 
-La N0120 est dans un cas particulier:
-Elle peut être débloquée avec des modifications matérielles, mais la raison pour laquelle on ne dit pas comment le faire dans ce guide c'est car il n'y a aucun OS Custom que vous pouvez installer dessus.
+La N0120 est dans un cas particulier :
+Elle peut être débloquée avec des modifications matérielles, mais la raison pour laquelle on ne dit pas comment le faire dans ce guide c'est parce qu'il n'y a aucun OS Custom que vous pouvez installer dessus.
 La N0120 a été publiée en premier avec Epsilon 16, mais une version patchés qui ne peut pas être débloquée avec Phi. Donc il n'y a aucune N0120 qui peut être débloquée sans matériel.
 
-Aussi, depuis Epsilon 16, Numworks a arrêté de donner les drivers pour le MCU, ces drivers sont nécessaires pour créer le bootloader. Les Développeurs peuvent les récupérer depuis Epsilon 15 pour N0100 et N0110, mais pour N0120, ils n'ont jamais été publiés (et ne peuvent pas être extraits d'Epsilon), donc ils doivent être développés depuis zéro ce qui est difficile et long. C'est pourquoi il n'y a pas de OS Custom pour N0120, et qu'on ne peut pas vous dire comment la débloquer
+Aussi, depuis Epsilon 16, Numworks a arrêté de donner les drivers pour le MCU, ces drivers étant nécessaires pour créer le bootloader. Les développeurs peuvent les récupérer depuis Epsilon 15 pour N0100 et N0110, mais pour N0120, ils n'ont jamais été publiés (et ne peuvent pas être extraits d'Epsilon), donc ils doivent être développés depuis zéro ce qui est difficile et long. C'est pourquoi il n'y a pas de OS Custom pour N0120, et qu'on ne peut pas vous dire comment la débloquer
 
 :::info
 Maintenant vous comprenez tout sur comment le débloquage de calculatrice fonctionne.

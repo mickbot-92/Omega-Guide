@@ -23,14 +23,14 @@ Vous êtes éligible, vous pouvez continuer normalement
 
 Cela dépend de la version que vous aviez avant de mettre à jour vers Epsilon 19 et plus.
 
-- Si vous aviez 15 ou avant, Omega, ou Upsilon: Vous ne pouvez pas changer de version
-- Si vous aviez 16 à 18.2.3 (sauf 16.4.3): Vous pouvez changer de version
+- Si vous aviez 15 ou avant, Omega, ou Upsilon : Vous ne pouvez pas changer de version
+- Si vous aviez 16 à 18.2.3 (sauf 16.4.3) : Vous pouvez changer de version
 - Si vous aviez 16.4.3, 19 ou plus: Vous ne pouvez pas changer de version
 
 ### Et si vous ne savez pas ?
 
-Ne vous inquitez pas, essayer de changer de version de ne cassera pas votre calculatrice
-Si vous n'étiez pas éligible, après la manipulation, la calculatrice sera bloquée sur l'écran de mode de récupération de Numworks et vous serez en mesure de mettre à jour depuis le site de Numworks et votre calculatrice fonctionnera normalement
+Ne vous inquiétez pas, essayer de changer de version de ne cassera pas votre calculatrice.
+Si vous n'étiez pas éligible, après la manipulation, la calculatrice sera bloquée sur l'écran de mode de récupération de Numworks. Vous serez alors en mesure de mettre à jour depuis le site de Numworks. Votre calculatrice fonctionnera normalement par la suite.
 
 ---
 

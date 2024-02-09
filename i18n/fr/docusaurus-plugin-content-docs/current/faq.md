@@ -24,4 +24,4 @@ Les téléphones Android peuvent être utilisés avec un câble USB OTG.
 
 **Q:** *Est-il sûr de mettre à jour Epsilon tout en ayant un bootloader custom installé ?*
 
-**A:** Pour le moment, le programme d'installation de Numworks ne vérifie pas les bootloaders modifiés, ni Epsilon, donc oui. (À moins que vous n'ayez pas un bootloader ce qui n'est probablement pas le cas)
+**A:** Pour le moment, le programme d'installation de Numworks ne vérifie pas les bootloaders modifiés, ni Epsilon, donc oui. (À moins que vous n'ayez pas de bootloader ce qui n'est probablement pas le cas)

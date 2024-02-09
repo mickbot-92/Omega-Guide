@@ -6,7 +6,7 @@ pagination_prev: null
 ---
 
 :::note
-Un grand merci à:
+Un grand merci à :
 - M4x1m3, le créateur original du guide
 - Rathmox d'avoir complété le guide.
 - WonderHunter pour la traduction en Français.
