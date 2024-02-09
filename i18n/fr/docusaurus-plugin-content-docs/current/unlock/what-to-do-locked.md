@@ -18,12 +18,12 @@ Toujours bon à mentionner, vous pouvez obtenir des jeux python sur votre calcul
 
 Depuis Epsilon 16 pour n0110, ou Epsilon 20 pour n0120, vous pouvez installer des applis personnalisées, elles ne sont pas aussi puissantes que celles d'Omega mais elles sont tout de même bien. Vous pouvez les trouver sur [Nwagyu](https://yaya-cout.github.io/Nwagyu/).
 Il y a [une page qui explique comment installer les applis](https://yaya-cout.github.io/Nwagyu/guide/help/how-to-install.html) avec également un moyen d'avoir plus d'espace pour les applis.
-Aussi, quand vous activez le mode examen ou appuyez sur "reset", elles seront désactivées.
+Aussi, quand vous activez le mode examen ou appuyez sur RESET, elles seront désactivées.
 
 ### Userland
 
 Epsilon est toujours partiellement open-source, vous pouvez modifier le code et créer votre propre version et l'installer.
-Cependant, c'est en userland uniquement et si vous appuyez sur "reset" vous retournerez au firmware d'origine. Vous aurez aussi un popup disant que vous exécutez un logiciel modifié.
+Cependant, c'est en userland uniquement et si vous appuyez sur RESET vous retournerez au firmware d'origine. Vous aurez aussi un popup disant que vous exécutez un logiciel modifié.
 Notez que depuis Epsilon 16, partager une version modifiée est illégal. Vous ne devez jamais partager la version que vous avez créé.
 
 [Les instructions de Numworks](https://www.numworks.com/resources/engineering/software/build/)

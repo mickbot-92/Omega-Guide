@@ -10,7 +10,7 @@ Vous allez également en apprendre un peu plus sur l'histoire de la calculatrice
 
 ### 1 - Comment la calculatrice est-elle conçue ?
 
-D'abord, sachez que le bouton Power de la calculatrice ne la met qu'en mode veille, au lieu de l'éteindre complètement. La calculatrice s'allume automatiquement quand la batterie est connectée. Le bouton reset au dos coupe simplement l'alimentation tant qu'il est maintenu. Quand vous le relâchez, la calculatrice s'allume.
+D'abord, sachez que le bouton Power de la calculatrice ne la met qu'en mode veille, au lieu de l'éteindre complètement. La calculatrice s'allume automatiquement quand la batterie est connectée. Le bouton RESET au dos coupe simplement l'alimentation tant qu'il est maintenu. Quand vous le relâchez, la calculatrice s'allume.
 
 Il y a actuellement 4 modèles de calculatrice Numworks: N0100, N0110, N0115, N0120.
 
@@ -62,7 +62,7 @@ Beaucoup de bootloaders custom contiennent plus de fonctions comme la possibilit
 Maintenant que vous comprenez comment fonctionne la flash interne, voyons comment Phi fonctionne
 :::
 
-### 5 - Comment Phi fontionne-t-il ?
+### 5 - Comment Phi fonctionne-t-il ?
 
 :::note
 Phi n'est **PAS** un programme ou un exploit qui permet directement de lancer un OS Custom et ne fait rien une fois que la calculatrice est débloquée.

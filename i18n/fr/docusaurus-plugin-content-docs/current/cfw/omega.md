@@ -18,8 +18,8 @@ Cette page expliquera comment installer Omega, en considérant que vous avez une
 
 ### Section I - Préparer le mode Recovery
 
-Si votre modèle est n0110, entrez le mode Recovery en mainteant "6" et en appuyant sur "reset".
-Si votre modèle est n0110, entrez le mode Recovery en branchant votre calculatrice et en appuyant sur "reset".
+Si votre modèle est n0110, entrez le mode Recovery en mainteant "6" et en appuyant sur RESET.
+Si votre modèle est n0110, entrez le mode Recovery en branchant votre calculatrice et en appuyant sur RESET.
 
 ### Section II - Installation d'Omega
 
@@ -32,17 +32,17 @@ Si votre modèle est n0110, entrez le mode Recovery en branchant votre calculatr
 ### Section III - Comment utiliser votre nouvelle calculatrice (pas pour n0100)
 
 Il y a de nouvelles fonctions sur votre calculatrice, vous devez les connaitre.
-Il y a un nouveau système de "Slot". Votre calculatrice a 2 slots et peut stocker 2 firmwares. ils ne peuvent pas fonctionner en même temps mais en utilisant reset vous pouvez passer de l'un à l'autre:
-- Maintenez 1 et appuyez sur reset pour lancer le Slot A (contient Omega par défaut)
-- Maintenez 2 et appuyez sur reset pour lancer le Slot B (peut être vite ou contenir Epsilon)
-- Maintenez 4 et appuyez sur reset pour ouvrir le bootloader, vous serez en mesure de voir quel slot contient quel firmware et vous pourrez installer n'importe quel firmware sans bloquer la calculatrice.
+Il y a un nouveau système de "Slot". Votre calculatrice a 2 slots et peut stocker 2 firmwares. ils ne peuvent pas fonctionner en même temps mais en utilisant RESET vous pouvez passer de l'un à l'autre:
+- Maintenez 1 et appuyez sur RESET pour lancer le Slot A (contient Omega par défaut)
+- Maintenez 2 et appuyez sur RESET pour lancer le Slot B (peut être vite ou contenir Epsilon)
+- Maintenez 4 et appuyez sur RESET pour ouvrir le bootloader, vous serez en mesure de voir quel slot contient quel firmware et vous pourrez installer n'importe quel firmware sans bloquer la calculatrice.
 - Vous ne pouvez pas lancer un autre firmware si vous activez le mode examen, vous devez le désactiver pour le faire.
 
 #### Section IV - Comment mettre à jour ?
 
-Pour mettre à jour Omega, ouvrez le bootloader en maintenant 4 et en appuyant sur reset, branchez votre calculatrice au PC, ouvrez le site web d'Omega, et installez-le normalement.
+Pour mettre à jour Omega, ouvrez le bootloader en maintenant 4 et en appuyant sur RESET, branchez votre calculatrice au PC, ouvrez le site web d'Omega, et installez-le normalement.
 
-Pour mettre à jour le bootloader, démarrez en mode Recovery en cliquant sur reset en maintenant  la touche 6, branchez votre calculatrice au PC, ouvrez le site web d'Omega, connectez la calculatrice en mode Recovery, et installez Omega de cette manière.
+Pour mettre à jour le bootloader, démarrez en mode Recovery en cliquant sur RESET en maintenant  la touche 6, branchez votre calculatrice au PC, ouvrez le site web d'Omega, connectez la calculatrice en mode Recovery, et installez Omega de cette manière.
 
 ### Fonctions facultatives
 

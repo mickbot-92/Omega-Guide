@@ -19,7 +19,7 @@ Cette page va vous dire si vous devez déverrouiller votre calculatrice et comme
 
 1. Éteignez votre calculatrice
 2. Appuyez sur la touche "6"
-3. Tout en appuyant sur la touche "6", appuyez sur le bouton reset à l'arrière de l'appareil.
+3. Tout en appuyant sur la touche "6", appuyez sur le bouton RESER à l'arrière de l'appareil.
 
 Si vous voyez un écran comme celui-ci, vous pouvez procéder :
 
@@ -31,7 +31,7 @@ Si l'écran reste noir et que la LED devient rouge, **STOP** - votre calculatric
 
 :::
 
-Appuyez sur le bouton reset à l'arrière de la calculatrice pour revenir au micrologiciel.
+Appuyez sur le bouton RESET à l'arrière de la calculatrice pour revenir au micrologiciel.
 
 #### Section III - Sélectionnez une méthode {#principal-methods}
 

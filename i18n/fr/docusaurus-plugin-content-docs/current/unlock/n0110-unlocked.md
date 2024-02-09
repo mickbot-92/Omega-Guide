@@ -7,4 +7,4 @@ pagination_prev: unlock/n0110-is-locked
 
 Votre calculatrice est débloquée, yay!
 
-Vous pouvez maintenant installer un OS Custom pour accéder à plus de fonctionnalitées
+Vous pouvez maintenant installer un OS Custom pour accéder à plus de fonctionnalitées.

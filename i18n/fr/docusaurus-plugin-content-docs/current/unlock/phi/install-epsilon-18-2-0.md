@@ -34,11 +34,11 @@ Vous devriez maintenant avoir un fichier internal.bin et un fichier external.bin
 ### Section II - Installation
 
 1. Ouvrez le [WebDFU](https://ti-planet.github.io/webdfu_numworks/n0110/) dans un navigateur web basé sur Chromium
-2. Maintenez la touche 6 sur votre Numworks et pressez le bouton reset
+2. Maintenez la touche 6 sur votre Numworks et pressez le bouton RESET
 3. Vous devriez maintenant voir l'interface du bootloader Epsilon
 4. Sélectionnez `external.bin` dans WebDFU
 5. Cliquez sur "flash external"
-6. Une fois le clignotement effectué, appuyez sur le bouton reset de votre Numworks
+6. Une fois le clignotement effectué, appuyez sur le bouton RESET de votre Numworks
 
 Vous devriez maintenant voir la version 18.2.0 dans Paramètres > À propos.
 

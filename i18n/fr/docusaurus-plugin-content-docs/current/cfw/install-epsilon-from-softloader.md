@@ -35,7 +35,7 @@ Si votre CFW inclut un bootloader qui permet d'installer un firmware depuis celu
 1. Vérifiez que votre calculatrice est dans le bootloader, prête à installer quoi que ce soit. Elle **NE DOIT PAS** être en mode Recovery (écran noir + LED rouge) étant donné que ça permettrait à Numworks de bloquer votre calculatrice
 2. Ouvrez la [page de mise à jour Numworks](https://numworks.com/update)
 3. Suivez les instructions mais s'il vous demande de faire quoi que ce soit sur votre calculatrice, ne le faites pas à moins que ce soit la connecter à votre PC. Le site devrait voir la version 0.0.0
-4. À la fin l'installateur sera bloqué et pourrait donner une erreur, c'est parce qu'il ne peut pas redémarrer la calculatrice. Ne vous inquiétez pas, Epsilon est installé, appuyez juste sur reset et tout est bon.
+4. À la fin l'installateur sera bloqué et pourrait donner une erreur, c'est parce qu'il ne peut pas redémarrer la calculatrice. Ne vous inquiétez pas, Epsilon est installé, appuyez juste sur RESET et tout est bon.
 
 Maintenant vous avez Epsilon avec un bootloader custom donc votre calculatrice n'est pas bloquée.
 

@@ -17,7 +17,7 @@ Tout va bien : un écran noir et une LED rouge signifient que votre calculatrice
 
 ### Écran noir, câble jaune, et `numworks.com/rescue`
 
-C'est l'écran du bootloader de Numworks. Il s'affiche quand la calculatrice est verrouillée (blocage de l'installation des OS Custom) et que vous avez lancé le mode recovery en maintenant 6 et en appuyant sur reset. Il s'affiche également quand la calculatrice n'a pas pu démarrer.
+C'est l'écran du bootloader de Numworks. Il s'affiche quand la calculatrice est verrouillée (blocage de l'installation des OS Custom) et que vous avez lancé le mode recovery en maintenant 6 et en appuyant sur RESET. Il s'affiche également quand la calculatrice n'a pas pu démarrer.
 
 Si vous souhaitez débloquer votre calculatrice, n'allez pas sur le site `numworks.com/rescue`, mais suivez le guide à partir de [l'installation d'Epsilon 18.2.0](/docs/unlock/phi/install-epsilon-18-2-0).
 
@@ -25,10 +25,10 @@ Si vous souhaitez débloquer votre calculatrice, n'allez pas sur le site `numwor
 
 Il y a 5 raisons possibles:
 - Votre calculatrice est en mode veille, appuyez sur le bouton power pour la rallumer.
-- Votre calculatrice est peut-être victime d'un bug, appuyez sur reset au dos.
+- Votre calculatrice est peut-être victime d'un bug, appuyez sur RESET au dos.
 - Votre calculatrice est peut-être déchargée, essayez de la laisser charger quelques minutes.
 - La batterie est déconnectée, vous pourriez avoir besoin d'ouvrir votre calculatrice pour la rebrancher.
-- Si vous avec une n0100, vous êtes peut-être en mode Recovery, débranchez le câble, et appuyez sur reset au dos ?.
+- Si vous avec une n0100, vous êtes peut-être en mode Recovery, débranchez le câble, et appuyez sur RESET au dos.
 
 Si cela ne résout pas le problème, contactez Numworks.
 
@@ -62,7 +62,7 @@ Notez bien que redémarrer le navigateur risque d'être nécessaire si vous déb
 
 Votre calculatrice a l'air d'être en mode Recovery mais elle ne l'est pas.
 
-Maintenez 6 et cliquez sur reset pour la démarrer en mode Recovery, ça aura l'air d'être pareil mais cette fois, elle sera reconnue.
+Maintenez 6 et cliquez sur RESET pour la démarrer en mode Recovery, ça aura l'air d'être pareil mais cette fois, elle sera reconnue.
 
 ### "Unable to claim interface"
 
@@ -102,7 +102,7 @@ Suivez [ce guide](/docs/intro) pour la débloquer.
 
 Cela peut arriver sur le site d'Omega et le site de Numworks. À moins que votre calculatrice soit bloquée, le firmware est déjà installé mais le site essaie de démarrer la calculatrice et il n'y arrive pas.
 
-Appuyez simplement sur reset sur la calculatrice et ça devrait être réglé.
+Appuyez simplement sur RESET sur la calculatrice et ça devrait être réglé.
 
 ### La calculatrice redémarre en essayant d'installer un OS Custom
 
@@ -146,13 +146,13 @@ Cela veut dire que le slot ne comtient pas d'OS fonctionnel. Vous devez le réin
 
 Vous essayez de démarrer Epsilon 19 sur un ancian bootloader custom.
 
-Mettez à jour le bootloader : allez sur le site de votre OS Custom, mettez la calculatrice en mode Recovery (en maintenant 6 et en appuyant sur reset au dos de la calculatrice), connectez-la à l'ordinateur, puis choisissez "Restauration" (recovery) sur le site de votre OS Custom.
+Mettez à jour le bootloader : allez sur le site de votre OS Custom, mettez la calculatrice en mode Recovery (en maintenant 6 et en appuyant sur RESET au dos de la calculatrice), connectez-la à l'ordinateur, puis choisissez "Restauration" (recovery) sur le site de votre OS Custom.
 
 ### "Mémoire corrompue" en essayant d'ajouter des scripts Python
 
 Cela peut arriver quand le bootloader custom est trop ancien.
 
-Pour le mettre à jour : allez sur le site de votre OS Custom, mettez la calculatrice en mode Recovery (en maintenant 6 et en appuyant sur reset au dos de la calculatrice), connectez-la à l'ordinateur, puis choisissez "Restauration" (recovery) sur le site de votre OS Custom.
+Pour le mettre à jour : allez sur le site de votre OS Custom, mettez la calculatrice en mode Recovery (en maintenant 6 et en appuyant sur RESET au dos de la calculatrice), connectez-la à l'ordinateur, puis choisissez "Restauration" (recovery) sur le site de votre OS Custom.
 
 ### Plantage en lançant Upsilon
 
